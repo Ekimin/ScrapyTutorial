@@ -1,6 +1,9 @@
+# coding=utf-8
 import scrapy
 
-
+'''
+scrapy crawl author -o <要保存的位置>
+'''
 class AuthorSpider(scrapy.Spider):
     name = 'author'
 
